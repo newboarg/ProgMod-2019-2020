@@ -13,8 +13,8 @@ def faktorer(x, reverse = 1):
         if x%i==0:
             faktorer.append(i) # legger til tall som deler x med 0 i rest i lista over faktorer
     """
-    Kommentar: vi trenger egentlig bare å sjekke opp til x/2 (for partall) 
-    #eller til x/3 (for oddetall). Hvorfor?
+    MERK: vi trenger egentlig bare å sjekke opp til x/2 (for partall) 
+    eller til x/3 (for oddetall). Hvorfor?
     """
 
     if reverse:
